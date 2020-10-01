@@ -5,6 +5,7 @@ if (@ARGV < 3) {
 	print STDERR "Usage: $0 base_name start stop max_test [ratings ...]\n";
 	exit 1;
 }
+#adding comment to repository
 $basename = shift;
 $start = shift;
 $stop = shift;
